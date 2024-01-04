@@ -1,0 +1,20 @@
+{
+  "name": "kubemq2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.4",
+    "dotenv": "^16.3.1",
+    "kubemq-js": "^1.2.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.2"
+  }
+}
